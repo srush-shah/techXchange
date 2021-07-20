@@ -251,11 +251,6 @@ h4,
   font-size: 20px;
   line-height: 50px;
 }
-@media (max-width: 468px) {
-  .social-links a {
-    display: none;
-  }
-}
 @media (min-width: 992px) {
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
@@ -466,6 +461,9 @@ h4,
   }
   .comments-area .thumb {
     margin-right: 10px;
+  }
+  /*#social5 .social-links {
+    display: none;
   }
 }
 .hero-banner {

@@ -251,11 +251,6 @@ h4,
   font-size: 20px;
   line-height: 50px;
 }
-@media (max-width: 468px) {
-  .social-links a {
-    display: none;
-  }
-}
 @media (min-width: 992px) {
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
@@ -578,27 +573,8 @@ h4,
 #about {
   padding: 5%;
 }
-#about .container {
-  padding: 2%;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgb(32, 32, 32);
-}
-#about .title {
-  color: #b83d80;
-  font-size: 230%;
-}
-#about p {
-  font-size: 100%;
-}
-#about .btn-custom1 {
-  background-color: #586ba4;
-  color: whitesmoke;
-  font-weight: 400;
-}
-#about .btn-custom1:hover {
-  background-color: whitesmoke;
-  color: #586ba4;
-  font-weight: 400;
+#about .container{
+  border; 
 }
 .section-intro {
   max-width: 640px;

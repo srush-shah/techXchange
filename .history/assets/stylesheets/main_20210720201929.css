@@ -251,11 +251,6 @@ h4,
   font-size: 20px;
   line-height: 50px;
 }
-@media (max-width: 468px) {
-  .social-links a {
-    display: none;
-  }
-}
 @media (min-width: 992px) {
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
@@ -370,6 +365,7 @@ h4,
     margin-top: 27px;
     margin-bottom: 23px;
   }
+@media (max-width: 720)
   .header_area .navbar {
     background: rgb(255, 255, 255);
   }

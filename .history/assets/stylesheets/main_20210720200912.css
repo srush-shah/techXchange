@@ -251,11 +251,6 @@ h4,
   font-size: 20px;
   line-height: 50px;
 }
-@media (max-width: 468px) {
-  .social-links a {
-    display: none;
-  }
-}
 @media (min-width: 992px) {
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
@@ -588,7 +583,7 @@ h4,
   font-size: 230%;
 }
 #about p {
-  font-size: 100%;
+  font-size: 110%;
 }
 #about .btn-custom1 {
   background-color: #586ba4;
@@ -596,8 +591,8 @@ h4,
   font-weight: 400;
 }
 #about .btn-custom1:hover {
-  background-color: whitesmoke;
-  color: #586ba4;
+  background-color: #586ba4;
+  color: whitesmoke;
   font-weight: 400;
 }
 .section-intro {
