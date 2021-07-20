@@ -1487,36 +1487,43 @@
             <div class="col-sm-6 col-lg-4 mb-3 mb-lg-0"></div>
           </div>-->
 
-          <!-- Swiper -->
+          <!-- Slider main container -->
           <div class="swiper-container">
+            <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <!-- Slides -->
+              <div class="swiper-scrollbar">
                 <img src="assets/images/partner1.png" alt="" />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-scrollbar">
                 <img src="assets/images/partner2.png" alt="" />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-scrollbar">
                 <img src="assets/images/partner3.png" alt="" />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-scrollbar">
                 <img src="assets/images/partner4.jpeg" alt="" />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-scrollbar">
                 <img src="assets/images/partner5.jpeg" alt="" />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-scrollbar">
                 <img src="assets/images/partner6.png" alt="" />
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-scrollbar">
                 <img src="assets/images/partner7.png" alt="" />
               </div>
+              ...
             </div>
-            <!-- Add Pagination -->
+            <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
+
+            <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
           </div>
         </div>
       </div>
@@ -1630,21 +1637,5 @@
     ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
   </body>
 </html>
