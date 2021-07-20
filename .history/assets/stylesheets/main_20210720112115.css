@@ -213,8 +213,9 @@ h4,
   background-color: #f6f5f8;
   position: relative;
 }
-.social-links a.instagram:hover {
+.social-links a.instagram:hover,.social-links a.instagram i {
   background-color: #b83d80;
+  color: ;
 }
 .social-links a.facebook:hover {
   background-color: #4968af;

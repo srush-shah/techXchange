@@ -148,7 +148,7 @@ h4,
 }
 .header_area .navbar-brand {
   margin-left: 2%;
-  margin-right: 10%;
+  margin-right: 12%;
   margin-top: 1.5%;
   padding: 0px;
 }
@@ -215,6 +215,9 @@ h4,
 }
 .social-links a.instagram:hover {
   background-color: #b83d80;
+  i {
+    color: ;
+  }
 }
 .social-links a.facebook:hover {
   background-color: #4968af;
@@ -240,12 +243,6 @@ h4,
 }
 .social-links a.linkedin i {
   color: #1377b5;
-}
-.social-links a.instagram i:hover,
-.social-links a.facebook i:hover,
-.social-links a.twitter i:hover,
-.social-links a.linkedin i:hover {
-  color: white;
 }
 .social-links a i {
   font-size: 20px;
